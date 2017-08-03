@@ -4,7 +4,7 @@ A powerfull desktop chat application powered by JavaFX. ( Alpha codes will be up
 
 AntChat Messenger is a cross-platform instant messaging application that allows users to interact with eachother. AntChat is especially popular with end users who do not have unlimited text messaging.
 
-Welcome to AntChat, the greatest chat application of all time!
+
 It is powered by Java and JavaFX. The server-side runs on Java as well!
 
 ![alt text](https://github.com/Exercon/AntChat/blob/master/screenshots/antchatlogo.png)
