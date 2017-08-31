@@ -96,7 +96,8 @@ This project does not have versioning and made with learning purposes.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/Exercon/Painterino-Online-Paint/blob/master/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/Exercon/AntChat/blob/master/LICENSE) 
+file for details.
 
 # Questions
 If you have any questions mail me -  antkaynak1@gmail.com
