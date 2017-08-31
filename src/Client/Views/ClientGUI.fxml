@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<VBox prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Client.Controllers.ClientGUI">
+   <children>
+      <HBox fx:id="menuBar" minHeight="41.0" minWidth="900.0" prefHeight="41.0" prefWidth="900.0" styleClass="themeColor">
+         <children>
+            <JFXHamburger fx:id="buttonMenu">
+               <HBox.margin>
+                  <Insets left="5.0" />
+               </HBox.margin>
+               <padding>
+                  <Insets left="20.0" />
+               </padding>
+            </JFXHamburger>
+            <Label fx:id="nameLabel" style="-fx-background-color: transparent;" styleClass="themeLabel" text="Name" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="20.0" top="7.0" />
+               </HBox.margin>
+            </Label>
+         </children>
+      </HBox>
+      <SplitPane fx:id="splitPane" dividerPositions="0.22160356347438753" focusTraversable="true" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+         <items>
+            <AnchorPane fx:id="drawerAnchorPane">
+               <children>
+                  <JFXDrawer fx:id="drawer" defaultDrawerSize="191.0" prefHeight="509.0" prefWidth="192.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                  <ListView fx:id="listViewStatus" prefHeight="509.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+               </children>
+            </AnchorPane>
+            <VBox prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <ListView fx:id="listView" prefHeight="200.0" prefWidth="200.0" VBox.vgrow="ALWAYS" />
+                  <HBox minWidth="24.0" prefHeight="24.0" prefWidth="700.0">
+                     <children>
+                        <JFXTextField fx:id="textField" focusColor="WHITE" focusTraversable="false" unFocusColor="BLACK" HBox.hgrow="ALWAYS">
+                           <styleClass>
+                              <String fx:value="themeColor" />
+                              <String fx:value="themeLabel" />
+                           </styleClass></JFXTextField>
+                        <JFXButton fx:id="buttonSend" onAction="#pressedSend" prefHeight="25.0" prefWidth="78.0" ripplerFill="#2c2b2b" styleClass="themeColor" text="O" textFill="WHITE" />
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </items>
+      </SplitPane>
+      <HBox id="HBox" alignment="CENTER_LEFT" spacing="5.0" VBox.vgrow="NEVER">
+         <children>
+            <Label maxHeight="1.7976931348623157E308" maxWidth="-1.0" text="Connected" HBox.hgrow="ALWAYS">
+               <font>
+                  <Font size="11.0" fx:id="x3" />
+               </font>
+               <textFill>
+                  <Color blue="0.625" green="0.625" red="0.625" fx:id="x4" />
+               </textFill>
+            </Label>
+            <Pane prefHeight="-1.0" prefWidth="-1.0" HBox.hgrow="ALWAYS" />
+            <Label fx:id="label1" font="$x3" maxWidth="-1.0" text="Right status" textFill="$x4" HBox.hgrow="NEVER" />
+         </children>
+         <padding>
+            <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+         </padding>
+      </HBox>
+   </children>
+</VBox>

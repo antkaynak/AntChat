@@ -1,0 +1,3 @@
+I used Tray Notification for this project.
+Please refer to https://github.com/PlusHaze/TrayNotification
+and download said library.

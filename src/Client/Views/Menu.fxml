@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<VBox fx:id="menuFxmlVBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="200.0" styleClass="themeColor" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <JFXButton fx:id="buttonSettings" onAction="#Settings" prefHeight="70.0" prefWidth="300.0" ripplerFill="WHITE" style="-fx-background-color: transparent;" styleClass="themeLabel" text="Settings" textFill="WHITE">
+         <VBox.margin>
+            <Insets top="70.0" />
+         </VBox.margin>
+      </JFXButton>
+      <JFXButton fx:id="buttonConnection" onAction="#Connection" prefHeight="70.0" prefWidth="300.0" ripplerFill="WHITE" style="-fx-background-color: transparent;" styleClass="themeLabel" text="Connection" textFill="WHITE" />
+      <JFXButton fx:id="buttonAbout" onAction="#About" prefHeight="70.0" prefWidth="300.0" ripplerFill="WHITE" style="-fx-background-color: transparent;" styleClass="themeLabel" text="About" textFill="WHITE" />
+      <JFXButton fx:id="buttonExit2" onAction="#Exit" prefHeight="70.0" prefWidth="300.0" ripplerFill="WHITE" style="-fx-background-color: transparent;" styleClass="themeLabel" text="Exit" textFill="WHITE" />
+   </children>
+</VBox>

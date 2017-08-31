@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="400.0" styleClass="themeColor" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Client.Controllers.ConnectionController">
+   <children>
+      <Label styleClass="themeLabel" text="Connection Info">
+         <VBox.margin>
+            <Insets left="120.0" top="40.0" />
+         </VBox.margin>
+         <font>
+            <Font name="Lucida Bright Regular" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="hostAddrLabel" styleClass="themeLabel" text="Label">
+         <font>
+            <Font name="Lucida Bright Regular" size="14.0" />
+         </font>
+         <VBox.margin>
+            <Insets left="50.0" top="30.0" />
+         </VBox.margin>
+      </Label>
+      <Label fx:id="portAddrLabel" styleClass="themeLabel" text="Label">
+         <font>
+            <Font name="Lucida Bright Regular" size="14.0" />
+         </font>
+         <VBox.margin>
+            <Insets left="50.0" top="20.0" />
+         </VBox.margin>
+      </Label>
+      <JFXButton fx:id="closeButton" onAction="#Close" text="Close">
+         <VBox.margin>
+            <Insets left="177.0" top="135.0" />
+         </VBox.margin>
+         <styleClass>
+            <String fx:value="themeColor" />
+            <String fx:value="themeLabel" />
+         </styleClass>
+      </JFXButton>
+   </children>
+</VBox>

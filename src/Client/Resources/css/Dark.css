@@ -1,0 +1,42 @@
+.list-cell{
+    -fx-background-color: null;
+    -fx-control-inner-background: null;
+}
+.list-view{
+    -fx-background-image : url("../img/darkbackground.png");
+    -fx-padding: 1px;
+}
+
+.split-pane:horizontal > .split-pane-divider{
+    -fx-padding: 0 0.10em 0 0.10em;
+    -fx-background-color: #323232;
+}
+
+.split-pane:horizontal{
+    -fx-border-color: #323232;
+    -fx-background-color: #323232;
+    -fx-background-insets: 0;
+    -fx-padding: 1px;
+}
+
+.jfx-hamburger StackPane{
+    -fx-background-color: #FFFFFF;
+}
+
+.themeColor{
+    -fx-background-color: #323232;
+}
+
+.themeLabel{
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: white;
+}
+
+#exitBox{
+    -fx-background-color: #323232;
+}
+
+
+
+
+
