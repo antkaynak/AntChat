@@ -86,7 +86,7 @@ public class ChatServer implements Runnable {
             case "//whoisonline":
                 String message = "";
                 for (int i = 0; i < clientCount; i++) {
-                    if (clients[i].getID() == ID) { //??????????????????? neden?????????
+                    if (clients[i].getID() == ID) { //So that server wouldn't send the clients name to the client itself.
                         continue;
                     }
                     message = message + "-" + clients[i].getClientName();
