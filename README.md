@@ -92,7 +92,7 @@ This project does not have versioning and made with learning purposes.
 
 ## Authors 
 
-* **Ant Kaynak** - *Initial work* - [Exercon](https://github.com/Exercon)
+* **Ant Kaynak** - *Initial work* - [Github](https://github.com/antkaynak)
 
 ## License
 
